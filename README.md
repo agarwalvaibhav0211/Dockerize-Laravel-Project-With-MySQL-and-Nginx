@@ -1,8 +1,12 @@
 ## Usage
-This is a Setup for Dockerizing a Laravel App with MySQL Database and NGINX Web Server
+This is a Setup for Dockerizing a Laravel App with MySQL Database and NGINX Web Server.
+
 To get started, make sure you have [Docker for Windows/Linux installed] on your system, and then clone this repository.
+
 Copy your Laravel App Files in `laravelSite` folder
+
 Configure your database credentials as given in the sample .env file
+
 Open a terminal and from this cloned respository's root run following commands in order:
 1. `docker-compose up -d --build`
 2. `docker-compose exec app composer update`or  `docker-compose exec app composer install`
