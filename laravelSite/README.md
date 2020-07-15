@@ -1,8 +1,13 @@
 **UPDATE THESE VALUES IN YOUR .env FILE**
 
 DB_CONNECTION=mysql
+
 DB_HOST=db
+
 DB_PORT=3306
+
 DB_DATABASE=laravel
+
 DB_USERNAME=mainuser
+
 DB_PASSWORD=password
