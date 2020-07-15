@@ -47,8 +47,8 @@ services:
       - ./mysql/data:/var/lib/mysql
       - ./mysql:/etc/mysql/conf.d
     environment:
-      MYSQL_DATABASE: laravel
-      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: laravel #This is your database name. You can Change it if you want. If you do change, update it in the .env file also
+      MYSQL_ROOT_PASSWORD: password #This is your Root Password. You can Change it if you want. But keep track of this as it will be used in setting up the Containers
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     networks:
