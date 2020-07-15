@@ -5,7 +5,21 @@ To get started, make sure you have [Docker for Windows/Linux installed] on your 
 
 Copy your Laravel App Files in `laravelSite` folder
 
-Configure your database credentials as given in the sample .env file
+Configure your database credentials as follows:
+
+**UPDATE THESE VALUES IN YOUR .env FILE**
+
+DB_CONNECTION=mysql
+
+DB_HOST=db
+
+DB_PORT=3306
+
+DB_DATABASE=laravel
+
+DB_USERNAME=mainuser
+
+DB_PASSWORD=password
 
 Open a terminal and from this cloned respository's root run following commands in order:
 1. `docker-compose up -d --build`
