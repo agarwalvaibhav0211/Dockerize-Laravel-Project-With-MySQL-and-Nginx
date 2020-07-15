@@ -13,7 +13,7 @@ Open a terminal and from this cloned respository's root run following commands i
 3. `docker-compose exec db bash`
 4. `mysql -u root -p`
 5. `password`
-6. `CREATE USER 'mainuser'@'%' IDENTIFIED BY 'password';`
+6. `CREATE USER 'mainuser'@'%' IDENTIFIED BY 'password';`   *If you change the Username and password, Do so in the .env file too*
 7. `GRANT ALL ON *.* TO 'mainuser'@'%';`
 8. `FLUSH PRIVILEGES;`
 9. `exit`
