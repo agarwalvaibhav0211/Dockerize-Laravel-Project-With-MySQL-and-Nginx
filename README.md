@@ -20,7 +20,9 @@ Open a terminal and from this cloned respository's root run following commands i
 10. `exit`
 
 If you have migration tables and seeds, run `docker-compose exec app php artisan migrate --seed`
+
 Other artisan commands can also be run in the format of `docker-compose exec app php artisan key:generate`
+
 Open up your browser of choice to [http://localhost:4000](http://localhost:4000) and you should see your Laravel app running as intended.
 
 Containers created and their ports (if used) are as follows:
@@ -30,6 +32,8 @@ Containers created and their ports (if used) are as follows:
 - **php** - `:9000`
 
 #Important Things to Know:
+
+The ports given above should not be in use in your computer. If they **are** in use, Change the ports in `docker-compose.yml` file.
 
 Site-Link: http://localhost:4000
 
