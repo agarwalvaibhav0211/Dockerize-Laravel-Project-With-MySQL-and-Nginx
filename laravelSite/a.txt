@@ -1,0 +1,2 @@
+This is a dummy file
+Delete this file after adding your Laravel app.
